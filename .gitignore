@@ -1,0 +1,33 @@
+# Build output and binary artifacts
+out/
+port/out/
+port/out-*/
+port/gpu-build.log
+*.o
+*.a
+*.so
+*.exe
+
+# User data, saves, and runtime caches
+user/
+port/user/
+*.gcda
+*.gcno
+pgo/
+port/pgo/
+fsr4_shaders/
+port/fsr4_shaders/
+fsr4_411/
+port/fsr4_411/
+vkd3d-proton.cache
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local config & logs
+tlg.ini
+port/tlg.ini
+*.log
+last_run.log
+perf.data
